@@ -11,14 +11,14 @@ export default function Home() {
 
    useEffect(() => {  
        // Call the backend to increase the view count  
-       fetch('https://auction-website-server-production.up.railway.app/api/admin/website/visitor-count', { method: 'POST' })
+       fetch('https://veterans-benefit-foundation.up.railway.app/api/admin/website/visitor-count', { method: 'POST' })
        .then(response => {  
            if (!response.ok) {  
                console.error('Failed to update viewer count');  
            }  
        })  
            .catch(error => console.error('Error:', error));  
-       fetch('https://auction-website-server-production.up.railway.app/api/admin/auctions')
+       fetch('https://veterans-benefit-foundation.up.railway.app/api/admin/auctions')
            .then(res => res.json())
            .then(data => setAuctions(data))
            .catch(err => console.error('Failed to load auctions:', err));
