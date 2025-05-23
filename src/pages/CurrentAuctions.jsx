@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 import { useAuth } from '../context/AuthContext';
 import { Link } from 'react-router-dom';
 
-const socket = io('auction-website-server-production.up.railway.app', {
+const socket = io('veterans-benefit-foundation.up.railway.app', {
     transports: ['websocket']
 });
 export default function CurrentAuctions() {
