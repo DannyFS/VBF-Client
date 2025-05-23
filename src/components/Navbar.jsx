@@ -17,7 +17,6 @@ export default function Navbar() {
         <Link to="/current-auctions" className="text-black hover:text-white font-bold">Current Auctions</Link>
         <Link to="/results" className="text-black hover:text-white font-bold">Results</Link>
         <Link to="/about-us" className="text-black hover:text-white font-bold">About Us</Link>
-        <Link to="/charity" className="text-black hover:text-white font-bold">Charity</Link>
       </nav>
     </div>
   );
