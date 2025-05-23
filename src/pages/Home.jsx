@@ -62,7 +62,7 @@ export default function Home() {
                        href="/#auctions-start"  
                        className="hover:underline text-white font-bold text-xl md:text-3xl py-4 px-8 rounded-lg shadow-lg transition duration-300"  
                    >  
-                       Welcome to Carolina Investor Auction  
+                       Welcome to Veterans Benefit Foundation 2.0
                    </a>  
                </div>  
            </div>  

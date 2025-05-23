@@ -21,8 +21,8 @@ export default function Footer() {
 
                 <div>
                     <h2 className="text-red-600">Contact Us</h2>
-                    <p><a href="tel:8039843906" className="hover:underline">Phone: (803) 984-3906</a></p>
-                    <p><a href="mailto:adam@ibuycarsandhouses.com" className="hover:underline">Email: adam@ibuycarsandhouses.com</a></p>
+                    <p><a href="tel:8039843906" className="hover:underline">Phone: (910) 526-3143</a></p>
+                    <p><a href="mailto:adam@ibuycarsandhouses.com" className="hover:underline">Email: willf@clearviewmortgage.net</a></p>
                 </div>
 
                 <div>
@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
 
             <div className="bg-black text-white text-center py-4 text-sm">
-                {year} &copy; Carolina Investor Auction. All Rights Reserved. Software Designed by Daniel Sadrulah
+                {year} &copy; Veterans Benefit Foundation. All Rights Reserved. Software Designed by ElementaryBidder.com
             </div>
         </>
     );

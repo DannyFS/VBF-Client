@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { api } from '../api';
 import scrollToTop from '../utils/scrollToTop';
 import { io } from 'socket.io-client';
-const socket = io('auction-website-server-production.up.railway.app', {
+const socket = io('veterans-benefit-foundation.up.railway.app', {
     transports: ['websocket']
 });
 

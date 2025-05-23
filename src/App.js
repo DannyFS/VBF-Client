@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Results from './pages/Results';
 import AboutUs from './pages/AboutUs';
-import Charity from './pages/Charity';
 import Contact from './pages/Contact';
 import OurApp from './pages/OurApp';
 import CurrentAuctions from './pages/CurrentAuctions';
@@ -23,7 +22,6 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/results" element={<Results />} />
                 <Route path="/about-us" element={<AboutUs />} />
-                <Route path="/charity" element={<Charity />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/our-app" element={<OurApp />} />
                 <Route path="/current-auctions" element={<CurrentAuctions />} />

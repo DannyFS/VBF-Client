@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useAuth } from '../context/AuthContext';
 
-const socket = io('auction-website-server-production.up.railway.app', {
+const socket = io('veterans-benefit-foundation.up.railway.app', {
     transports: ['websocket']
 });
 
@@ -24,7 +24,7 @@ export default function AuctionDetail() {
     const [showTerms, setShowTerms] = useState(false);
 
 
-    const API_BASE = 'https://auction-website-server-production.up.railway.app';
+    const API_BASE = 'https://veterans-benefit-foundation.up.railway.app';
 
     // Helper to fix double or missing slashes
     const getFullImageUrl = (relativePath) => {

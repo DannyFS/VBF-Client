@@ -11,9 +11,9 @@ function Contact() {
 
             <div className="p-6">
                 <h1 className="text-2xl font-bold mb-4">Contact Us</h1>
-                <p>Phone: (803) 984-3906</p>
+                <p>Phone: (910) 526-3143</p>
 
-                <p>Email: adam@ibuycarsandhouses.com</p>
+                <p>Email: willf@clearviewmortgage.net</p>
             </div>
 
             <Footer />

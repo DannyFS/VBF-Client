@@ -25,7 +25,7 @@ export default function Header() {
 
     useEffect(() => {
         if (isRegistering) {
-            api.get('https://auction-website-server-production.up.railway.app/api/admin/website/questionnaire')
+            api.get('/api/admin/website/questionnaire')
                 .then(res => setQuestions(res.data || []))
                 .catch(err => console.error('Failed to load questionnaire:', err));
         }
@@ -42,7 +42,7 @@ export default function Header() {
         e.preventDefault();
         setError('');
         try {
-            const res = await api.post('https://auction-website-server-production.up.railway.app/api/admin/users/login', {
+            const res = await api.post('/api/admin/users/login', {
                 email: form.email,
                 password: form.password
             });
@@ -73,10 +73,10 @@ export default function Header() {
         };
 
         try {
-            await api.post('https://auction-website-server-production.up.railway.app/api/admin/users', userData);
+            await api.post('/api/admin/users', userData);
 
             // Auto-login after registration
-            const res = await api.post('https://auction-website-server-production.up.railway.app/api/admin/users/login', {
+            const res = await api.post('/api/admin/users/login', {
                 email: form.email,
                 password: form.password
             });
@@ -94,10 +94,10 @@ export default function Header() {
     return (
         <>
             <div className="w-full bg-[#212f3d] text-white text-sm flex justify-between px-6 py-2">
-                <div>Bid Boldly, Win Brilliantly</div>
+                <div>For Liberty And Justice For All</div>
                 <div className="flex gap-4 items-center">
                     <a href="/" className="hover:underline">Home</a>
-                    <a href="tel:+18039843906" className="hover:underline">(803) 984-3906</a>
+                    <a href="tel:+18039843906" className="hover:underline">(910) 526-3143</a>
                     <a href="/contact" className="hover:underline">Contact</a>
                     {user ? (
                         <button onClick={logout} className="bg-red-600 hover:bg-red-700 px-3 py-1 rounded text-xs">Logout</button>
