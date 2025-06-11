@@ -16,7 +16,9 @@ export default function Navbar() {
       <nav className="flex gap-6">
         <Link to="/current-auctions" className="text-black hover:text-white font-bold">Current Auctions</Link>
         <Link to="/results" className="text-black hover:text-white font-bold">Results</Link>
+        <Link to="/founder" className="text-black hover:text-white font-bold">Founders Page</Link>
         <Link to="/about-us" className="text-black hover:text-white font-bold">About Us</Link>
+
       </nav>
     </div>
   );
