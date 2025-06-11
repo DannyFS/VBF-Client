@@ -82,8 +82,6 @@ function AboutUs() {
                     <p>
                         Veterans Benefits Foundation 2.0 isn't just a nonprofit. It's a mission. A team. A trusted network built by and for veterans. With elite leadership, clear goals, and deep understanding, we're here to serve-with excellence.
                     </p>
-                    <p className="italic">Semper Fidelis,</p>
-                    <p className="font-semibold">William Furgione, USMC (Ret)</p>
                 </section>
 
                 <section>
