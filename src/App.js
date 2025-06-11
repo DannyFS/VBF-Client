@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // Public Pages
 import Home from './pages/Home';
 import Results from './pages/Results';
+import FoundersPage from './pages/FoundersPage';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import OurApp from './pages/OurApp';
@@ -21,6 +22,7 @@ function App() {
                 {/* Public Routes */}
                 <Route path="/" element={<Home />} />
                 <Route path="/results" element={<Results />} />
+                <Route path="/founder" element={<FoundersPage />} />
                 <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/our-app" element={<OurApp />} />
