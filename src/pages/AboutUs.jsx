@@ -84,10 +84,6 @@ function AboutUs() {
                     </p>
                     <p className="italic">Semper Fidelis,</p>
                     <p className="font-semibold">William Furgione, USMC (Ret)</p>
-                    <p>Clearview Mortgage LLC<br />
-                        Corp NMLS# 2506941 | NMLS# 199823<br />
-                        Branch Manager - Myrtle Beach, SC
-                    </p>
                 </section>
 
                 <section>
