@@ -94,7 +94,7 @@ export default function Header() {
     return (
         <>
             <div className="w-full bg-[#212f3d] text-white text-sm flex justify-between px-6 py-2">
-                <div>For Liberty And Justice For All</div>
+                <div>Not For Profit</div>
                 <div className="flex gap-4 items-center">
                     <a href="/" className="hover:underline">Home</a>
                     <a href="tel:+18039843906" className="hover:underline">(910) 526-3143</a>
