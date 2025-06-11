@@ -89,7 +89,7 @@ function AboutUs() {
                 <section>
                     <h2 className="text-2xl font-bold">Contact</h2>
                     <p><strong>Phone:</strong> <a href="tel:9105263143" className="text-blue-600 underline">910-526-3143</a></p>
-                    <p><strong>Website:</strong> <a href="https://clearviewmortgage.net" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">clearviewmortgage.net</a></p>
+                    <p><strong>Website:</strong> <a href="https://vaanswers.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">clearviewmortgage.net</a></p>
                 </section>
             </div>
 
