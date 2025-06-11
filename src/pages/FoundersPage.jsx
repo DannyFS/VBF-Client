@@ -1,9 +1,16 @@
 import React from 'react';
 import william1 from '../assets/William1.jpeg';
 import william2 from '../assets/William2.jpeg';
+import Header from '../components/Header';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function FoundersPage() {
   return (
+    <>
+    <Header />
+    <Navbar />
+      
     <div className="max-w-5xl mx-auto p-6 space-y-6">
       <h1 className="text-4xl font-bold text-center text-[#004aad]">Founder: William Furgione</h1>
 
@@ -21,5 +28,8 @@ export default function FoundersPage() {
         <p>After operating the VBF for 5 years, William decided on stepping down from daily operations at the Veterans Benefits Foundation, William returned to the mortgage industry, working as a federally chartered mortgage originator for the Bank of England for about eight years. Later, he joined PRMG (Paramount Residential Mortgage Group) for a short time before being selected to join Clearview Mortgage as the Myrtle Beach branch manager. Since joining Clearview Mortgage, William was recognized by United Wholesale Mortgage, the largest wholesale mortgage company in the United States, as one of the fastest-growing loan officers in 2024. After 29 successful years in the mortgage industry, His motto, “Where there’s a William, there’s a way,” reflects his dedication and ability to handle everything from straightforward government loans to complex DSCR condotel loans and even assist clients with their investment portfolios through a network of full-service home related professionals.</p>
       </div>
     </div>
+
+      <Footer />
+    </>
   );
 }
