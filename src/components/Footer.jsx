@@ -22,7 +22,7 @@ export default function Footer() {
                 <div>
                     <h2 className="text-red-600">Contact Us</h2>
                     <p><a href="tel:8039843906" className="hover:underline">Phone: (910) 526-3143</a></p>
-                    <p><a href="mailto:adam@ibuycarsandhouses.com" className="hover:underline">Email: willf@clearviewmortgage.net</a></p>
+                    <p><a href="mailto:adam@ibuycarsandhouses.com" className="hover:underline">Email: info@vaanswers.org</a></p>
                 </div>
 
                 <div>
